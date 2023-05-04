@@ -1,15 +1,6 @@
 <template>
-  <div>
-    <HomePage/>
-  </div>
+  <router-view></router-view>
 </template>
-
-<script>
-import HomePage from './pages/HomePage.vue';
-export default{
-  components: {HomePage}
-}
-</script>
 
 <style scoped>
 
